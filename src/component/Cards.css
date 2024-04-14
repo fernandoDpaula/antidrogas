@@ -1,0 +1,11 @@
+.card {
+  max-width: 600px;
+  min-width: 100px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px auto;
+  box-shadow: 5px 5px 15px black;
+  color: black;
+  padding: 50px;
+  text-align: justify;
+}

@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  background-color: #E5E5E5;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+h1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px;
+  background-color: #1F2853;
+  color: white;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow:1px 1px 2px #E3000F, 0 0 1em blue, 0 0 0.2em #1F2853;;
+}
+h2{
+  color:#E3000F;
+}
+
+#menu {
+  position: fixed;
+  top: 150px; /* Ajuste conforme necessário para evitar que o menu sobreponha o cabeçalho */
+  left: 0;
+  width: 100%;
+  background-color: rgb(99, 97, 97);
+  z-index: 1; /* Garante que o menu fique sobre os cartões */
+}
+
+a {
+  color: white;
+  padding: 40px;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+a.link{
+  color:#1F2853;
+}
+
+#content {
+  padding-top: 170px; /* Ajuste conforme necessário para garantir que o conteúdo comece abaixo do cabeçalho e do menu */
+}
+
+img{
+  width: 100px;
+  padding: 20px;
+}
+
+.imagem{
+    width: 100vw;
+    height: 300px;
+    margin: auto;
+    background-color: rgb(51,51,51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.imagem > p{
+    font-size: 1.5em;
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.521);
+    text-shadow: 1px 1px 0px black;
+    margin-top: 150px;
+}
+#img01{
+   background-image: url(../src/img/liberdade1.jpg);
+  background-position: right center;
+}
+#img02{
+   background-image: url(../src/img/liberdade.jpg);
+  background-position: right center;
+}
+#img03{
+   background-image: url(../src/img/liberdade3.jpg);
+  background-position: right center;
+}
+#sobrep {
+  padding: 20px;
+
+}
