@@ -30,7 +30,7 @@ function App() {
         <Menu/>
       </div>
       <div className='imagem' id='img01'>
-        <p>"Eu vim para que tenham vida, e a tenham com abundância. <br />(João 10;10)</p>
+        <p>"Eu vim para que tenham vida, e a tenham com abundância. <br />(João 10:10)</p>
       </div>
       <div id="informacoes" className="card"> 
       
