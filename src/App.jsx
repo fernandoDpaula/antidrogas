@@ -69,7 +69,7 @@ function App() {
       </p><br />
     </li>
     <li>
-      <h3><a href="https://www.unodc.org/lpo-brazil/pt/frontpage/2019/04/ods-3--sobre-sade-e-bem-estar---o-objetivo-do-ms-em-abril.html" className="link">ODS 3: Saúde e bem-estar</a></h3><img src="./src/img/ods3.png" alt="img.png" /><br />
+      <h3><a href="https://www.unodc.org/lpo-brazil/pt/frontpage/2019/04/ods-3--sobre-sade-e-bem-estar---o-objetivo-do-ms-em-abril.html" className="link">ODS 3: Saúde e bem-estar</a></h3><img src="src/img/ods3.png" alt="img.png" /><br />
       <p>
        Informações sobre as metas da ONU para 2030 que incluem "Saude e Bem-estar". Principalmente a meta <strong>3.5:</strong> <em>"Reforçar a prevenção e o tratamento do abuso de substâncias, incluindo o abuso de drogas entorpecentes e uso nocivo do álcool; "</em>
        
@@ -87,7 +87,7 @@ function App() {
         <Cards>
           <h2>Sobre</h2><hr /><br />
 
-          <img id='dro' src="./src/img/drogasLogo2.png" alt="img.jpg" />
+          <img id='dro' src="src/img/drogasLogo2.png" alt="img.jpg" />
 
           {
             <p id='sobrep'>* Este aplicativo foi idealizado com o intuito de ajudar pessoas e famílias que enfrentam problemas com vícios na <strong>comunidade do bairro Areias, em São José, SC</strong><div className="br"></div> Ele tem como objetivo fornecer recursos e apoio para aqueles que lutam contra vícios, oferecendo informações sobre os diferentes tipos de dependências, seus impactos na saúde física e mental, e orientações sobre os recursos disponíveis para auxiliar na recuperação. <br />Esperamos que esse aplicativo possa fazer uma diferença positiva na vida das pessoas e contribuir para a construção de uma comunidade mais saudável e solidária.</p>}
@@ -102,7 +102,7 @@ function App() {
       <div id="contatos" className="card">
         <Cards>
           <h2>Contatos</h2><hr /><br />
-          <img src="./src/img/contatoslogo.png" alt="img.png" />
+          <img src="src/img/contatoslogo.png" alt="img.png" />
           {<><p>Para mais informações entre em contato:</p><br /><ul>
                       <li>Email: ajuda@antidrogas.com.br</li>
                       <li>Telefone: +55 (xx)xxxxxxxxx</li>
