@@ -7,7 +7,8 @@ function Header() {
     
       <>
       <div>
-        <h1><img src="src/img/drogaslogo.png" alt="img.png" />Aplicativo de Conciêntização e Combate as Drogas</h1>
+        <h1><img src="https://acepb.com.br/upload/noticias/g_26172.jpg" alt="img.png" />
+Aplicativo de Conciêntização e Combate as Drogas</h1>
       </div>
         
     </>
